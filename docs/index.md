@@ -1,12 +1,8 @@
-<div align="center">
+# 📚 IAM Audit Utility - Documentation Hub
 
-<h1>📚 IAM Audit Utility - Documentation Hub</h1>
+### Complete Guide to Automated IAM Auditing
 
-<h3>Complete Guide to Automated IAM Auditing</h3>
-
-<p>../← Back to Main</a></p>
-
-</div>
+/IAM-Lens-Documentation/
 
 ---
 
