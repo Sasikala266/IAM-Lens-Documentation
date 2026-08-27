@@ -1,0 +1,42 @@
+# GitHub Pages Configuration for IAM Audit Utility
+
+# Site settings
+title: IAM Audit Utility
+description: Automated IAM Role & Policy Auditing for AWS
+
+# Base URL - leave empty for project pages, GitHub will handle it automatically
+baseurl: ""
+
+# Markdown processing
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  auto_ids: true
+  parse_block_html: true
+  parse_span_html: true
+
+# GitHub Pages specific settings
+# Use minimal plugins for maximum compatibility
+plugins:
+  - jekyll-relative-links
+
+# Enable relative links for GitHub Pages
+relative_links:
+  enabled: true
+  collections: false
+
+# Files and directories to include
+include:
+  - docs
+
+# Exclude unnecessary files from the site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .terraform
+  - "*.tf"
+  - "*.tfvars"
