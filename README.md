@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 IAM Audit Utility
+# 🔍 IAM Lens
 
 ### Automated IAM Role & Policy Auditing for AWS
 
